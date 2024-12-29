@@ -1,5 +1,19 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9701ff14-9a8f-43ab-a327-0923973e2750")
+	(paper "A4")
+	(title_block
+		(title "${Project_Name}")
+		(date "2024-12-29")
+		(rev "1")
+		(company "Jack Tanner")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
