@@ -2609,7 +2609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 166.37 63.4999 0)
 			(effects
 				(font
@@ -2678,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz"
 			(at 176.53 50.8 90)
 			(effects
 				(font
@@ -2748,7 +2748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 124.46 140.9699 0)
 			(effects
 				(font
@@ -2809,7 +2809,7 @@
 		(dnp no)
 		(uuid "4082dc0d-7b6b-4cb3-8d21-b8bea4652932")
 		(property "Reference" "R4"
-			(at 163.8301 38.1 0)
+			(at 161.29 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,8 +2817,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 161.2901 38.1 0)
+		(property "Value" "330"
+			(at 160.02 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 133.35 140.97 0)
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 181.61 17.78 90)
 			(effects
 				(font
@@ -3522,6 +3522,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 181.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3558,7 +3566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 137.16 38.0999 0)
 			(effects
 				(font
@@ -3628,7 +3636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "330"
 			(at 242.57 74.9299 0)
 			(effects
 				(font
@@ -3681,7 +3689,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 248.92 44.45 0)
+		(at 247.65 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3690,7 +3698,7 @@
 		(fields_autoplaced yes)
 		(uuid "801f939d-f36a-4978-be0e-7399758d8649")
 		(property "Reference" "C6"
-			(at 252.73 42.5449 0)
+			(at 251.46 40.0049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,8 +3706,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_US"
-			(at 252.73 45.0849 0)
+		(property "Value" "100nF"
+			(at 251.46 42.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 44.45 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 44.45 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3734,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 248.92 44.45 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3839,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 185.42 68.58 90)
 			(effects
 				(font
@@ -3900,7 +3908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 111.76 39.3699 0)
 			(effects
 				(font
@@ -3934,6 +3942,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 109.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3970,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 123.19 39.3699 0)
 			(effects
 				(font
@@ -4329,7 +4345,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 KHz"
 			(at 45.72 41.9099 90)
 			(effects
 				(font
@@ -4363,6 +4379,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4399,7 +4423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 166.37 52.0699 0)
 			(effects
 				(font
