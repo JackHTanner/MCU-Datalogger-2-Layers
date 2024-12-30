@@ -2788,16 +2788,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 25.4) (xy 243.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120a6d7a-80f8-4bed-9264-1651f3ad9334")
-	)
-	(wire
-		(pts
 			(xy 106.68 43.18) (xy 106.68 45.72)
 		)
 		(stroke
@@ -3975,6 +3965,17 @@
 			(justify left bottom)
 		)
 		(uuid "728355ae-f00f-4fb7-96f1-8bd8a2ad3517")
+	)
+	(label "Vcc"
+		(at 243.84 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "740dcc67-833c-44f6-8dfa-cc1d3866c767")
 	)
 	(label "SDA"
 		(at 158.75 127 180)
@@ -6798,72 +6799,6 @@
 			(project "MCU Datalogger"
 				(path "/9701ff14-9a8f-43ab-a327-0923973e2750"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 243.84 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9614b8a-0a6c-4bd3-b7ee-2cc824f42de0")
-		(property "Reference" "#FLG01"
-			(at 243.84 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 243.84 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 243.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32fb945a-66f3-471f-9337-1eee3c4100be")
-		)
-		(instances
-			(project ""
-				(path "/9701ff14-9a8f-43ab-a327-0923973e2750"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
