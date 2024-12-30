@@ -5,4 +5,8 @@ fp-info-cache
 *backups/*
 *.lck
 auto_saved_files#*
+*.bak 
+_autosave-*
+*-bak 
+
 
