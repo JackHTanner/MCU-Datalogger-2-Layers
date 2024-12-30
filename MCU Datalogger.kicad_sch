@@ -2858,6 +2858,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e04a58-837e-4c4d-8aca-2d1c29cff919")
+	)
+	(wire
+		(pts
 			(xy 254 55.88) (xy 254 58.42)
 		)
 		(stroke
@@ -3128,23 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 158.75 119.38)
+			(xy 151.13 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7274a984-993e-4d62-b4e5-20310e9ad40f")
-	)
-	(wire
-		(pts
-			(xy 158.75 121.92) (xy 149.86 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b387860-3371-4408-afbc-7ae469a6d620")
 	)
 	(wire
 		(pts
@@ -3588,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 149.86 124.46)
+			(xy 149.86 120.65) (xy 149.86 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3768,7 +3768,7 @@
 		)
 		(uuid "0f91fc1d-8ac3-46a2-b3a0-5b4e33900805")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 111.76 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3780,7 +3780,7 @@
 		(uuid "0f9a134e-ac64-4c87-89ff-822637f5d8c9")
 	)
 	(label "MOSI"
-		(at 158.75 142.24 180)
+		(at 160.02 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3790,7 +3790,7 @@
 		)
 		(uuid "15cbd208-0f18-4f52-8845-744e46e175c1")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 63.5 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3801,8 +3801,8 @@
 		)
 		(uuid "1a4cc779-3873-459f-92f3-9e9a56e9a783")
 	)
-	(label "SCK"
-		(at 158.75 129.54 180)
+	(label "SCL"
+		(at 160.02 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3912,7 +3912,7 @@
 		(uuid "470faae1-2fb3-4f41-81c6-843c9aad68ea")
 	)
 	(label "RX"
-		(at 158.75 134.62 180)
+		(at 160.02 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3978,7 +3978,7 @@
 		(uuid "740dcc67-833c-44f6-8dfa-cc1d3866c767")
 	)
 	(label "SDA"
-		(at 158.75 127 180)
+		(at 160.02 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3988,8 +3988,19 @@
 		)
 		(uuid "74988f1b-2afa-4082-ab23-78ea4a2cc9c6")
 	)
+	(label "SCK"
+		(at 160.02 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "848ca167-0676-4d1e-8c4b-b266f477e011")
+	)
 	(label "Vcc"
-		(at 149.86 119.38 0)
+		(at 151.13 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4033,7 +4044,7 @@
 		(uuid "9ec7562d-92d1-4c7c-a187-00732bc4fb62")
 	)
 	(label "MISO"
-		(at 158.75 144.78 180)
+		(at 160.02 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4043,7 +4054,7 @@
 		)
 		(uuid "a09916ec-309d-4e05-a6bb-a7ca5d3aafd8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 203.2 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4054,7 +4065,7 @@
 		)
 		(uuid "a0b03aa2-9528-4511-8908-a0246602f58f")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 96.52 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4066,7 +4077,7 @@
 		(uuid "a3fa31fc-33ca-4c30-9531-49d42f668ff3")
 	)
 	(label "RESET"
-		(at 158.75 149.86 180)
+		(at 160.02 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4187,7 +4198,7 @@
 		(uuid "df0426c5-6410-44c0-8be8-6d0f830f16f4")
 	)
 	(label "TX"
-		(at 158.75 137.16 180)
+		(at 160.02 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4252,7 +4263,7 @@
 		)
 		(uuid "f9796949-7de0-47ec-b3c8-65ee2d6998f8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 48.26 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7146,9 +7157,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 115.57)
-		(size 38.1 36.83)
-		(fields_autoplaced yes)
+		(at 160.02 115.57)
+		(size 36.83 39.37)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7158,7 +7168,7 @@
 		)
 		(uuid "c2b13e64-2f56-400e-b6e6-4b59c69ab794")
 		(property "Sheetname" "Connectors"
-			(at 158.75 114.8584 0)
+			(at 160.02 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7177,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 158.75 152.9846 0)
+			(at 160.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7186,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 158.75 127 180)
+			(at 160.02 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7196,7 @@
 			(uuid "dc09377e-ba70-4cda-8922-f3cb8e99f479")
 		)
 		(pin "Vcc" passive
-			(at 158.75 119.38 180)
+			(at 160.02 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7206,7 @@
 			(uuid "b795f6f8-4ea3-4d1f-b6a1-a3b1e0199566")
 		)
 		(pin "GND" passive
-			(at 158.75 121.92 180)
+			(at 160.02 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,18 +7215,8 @@
 			)
 			(uuid "25ce39b2-31cd-4faa-9081-333b214e28c6")
 		)
-		(pin "SCK" passive
-			(at 158.75 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f9617a9f-73c4-4c26-9d3e-15cec9b38164")
-		)
 		(pin "RX" input
-			(at 158.75 134.62 180)
+			(at 160.02 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7226,7 @@
 			(uuid "9ee0641d-fd2f-4c94-a31a-f6d965b69d41")
 		)
 		(pin "TX" output
-			(at 158.75 137.16 180)
+			(at 160.02 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7306,7 @@
 			(uuid "086fd35a-39df-409a-841a-6306aebdeb74")
 		)
 		(pin "MOSI" input
-			(at 158.75 142.24 180)
+			(at 160.02 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7316,7 @@
 			(uuid "90668935-cbf6-4a1c-9258-e735ee0bc9ac")
 		)
 		(pin "MISO" output
-			(at 158.75 144.78 180)
+			(at 160.02 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7326,7 @@
 			(uuid "39f6bb97-d008-47ff-bbbf-0abc9c7b4512")
 		)
 		(pin "RESET" passive
-			(at 158.75 149.86 180)
+			(at 160.02 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,6 +7334,26 @@
 				(justify left)
 			)
 			(uuid "db8979f1-160e-45c2-93b8-086fd9c6710d")
+		)
+		(pin "SCL" passive
+			(at 160.02 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98a3a600-3093-4199-b9d0-ce66f660f558")
+		)
+		(pin "SCK" passive
+			(at 160.02 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40cc4e4a-c5b9-494f-a726-dc298a848d36")
 		)
 		(instances
 			(project "MCU Datalogger"
