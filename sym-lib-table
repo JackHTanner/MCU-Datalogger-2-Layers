@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ATMEGA328P-AU")(type "KiCad")(uri "${KIPRJMOD}/Library/ATMEGA328P-AU/ATMEGA328P-AU.kicad_sym")(options "")(descr ""))
   (lib (name "DS1337S_")(type "KiCad")(uri "${KIPRJMOD}/Library/DS1337S/DS1337S_.kicad_sym")(options "")(descr ""))
+  (lib (name "MSC1212Y5PAGT")(type "KiCad")(uri "${KIPRJMOD}/Library/MSC1212Y5PAGT/MSC1212Y5PAGT.kicad_sym")(options "")(descr ""))
 )
