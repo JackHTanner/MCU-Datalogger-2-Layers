@@ -127,6 +127,7 @@
 		)
 	)
 	(property "Project_Name" "MCU Datalogger with Memory and Clock")
+	(property "Project_Name2" "Breadboard Power Supply")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "/Vcc")
