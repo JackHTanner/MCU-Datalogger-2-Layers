@@ -1,2 +1,6 @@
+HEAD
 # Auto detect text files and perform LF normalization
 * text=auto
+
+MCU Datalogger.kicad_pcb merge=pcb
+cad77e4 (Added gitattributes.)
